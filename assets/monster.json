@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Goblin",
+        "health": 15,
+        "strength": 4
+    },
+    {
+        "name": "Wolf",
+        "health": 20,
+        "strength": 5
+    }
+]

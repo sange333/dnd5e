@@ -14,22 +14,22 @@ class Character:
         self.charisma = random.randint(8, 18)
     
     def display_stats(self):
-        print(f"Name: {self.name}")
-        print(f"Race: {self.race}")
-        print(f"Class: {self.char_class}")
-        print(f"Health: {self.health}")
-        print(f"Strength: {self.strength}")
-        print(f"Dexterity: {self.dexterity}")
-        print(f"Constitution: {self.constitution}")
-        print(f"Intelligence: {self.intelligence}")
-        print(f"Wisdom: {self.wisdom}")
-        print(f"Charisma: {self.charisma}\n")
+        print(f"名字: {self.name}")
+        print(f"种族: {self.race}")
+        print(f"职业: {self.char_class}")
+        print(f"生命值: {self.health}")
+        print(f"力量: {self.strength}")
+        print(f"敏捷: {self.dexterity}")
+        print(f"体质: {self.constitution}")
+        print(f"智力: {self.intelligence}")
+        print(f"智慧: {self.wisdom}")
+        print(f"魅力: {self.charisma}\n")
 
     def attack(self):
         attack_roll = random.randint(1, 20) + self.strength
-        print(f"{self.name} attacks! Rolled a {attack_roll}")
+        print(f"{self.name} 攻击! 掷出了 {attack_roll}")
         return attack_roll
 
     def take_damage(self, damage):
         self.health -= damage
-        print(f"{self.name} takes {damage} damage, remaining health: {self.health}\n")
+        print(f"{self.name} 受到 {damage} 点伤害，剩余生命值: {self.health}\n")
