@@ -1,11 +1,11 @@
 [
     {
-        "name": "Goblin",
+        "name": "哥布林",
         "health": 15,
         "strength": 4
     },
     {
-        "name": "Wolf",
+        "name": "野狼",
         "health": 20,
         "strength": 5
     }
