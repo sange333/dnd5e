@@ -1,7 +1,14 @@
+import sys
+import os
+
+# 将项目根目录添加到 sys.path
+sys.path.append(os.path.abspath(os.path.dirname(__file__)))
+
 from characters.character import Character
 from characters.enemy import Enemy
 from game.intro_scene import intro_scene
 from game.combat import combat
+
 
 def create_character():
     print("让我们来创建你的角色吧!")
